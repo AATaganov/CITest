@@ -1,8 +1,6 @@
 name: Android CI test Pull Request
 
 on:
-  push:
-    branches: [ master ]
   pull_request:
     branches: [ master ]
 

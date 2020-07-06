@@ -86,6 +86,6 @@ jobs:
     - uses: actions/upload-artifact@v2
       with:
         name: app-release-SNAPSHOT.apk
-        path: app/build/outputs/apk.release/app-release-unsigned.apk
+        path: app/build/outputs/apk/release/app-release-unsigned.apk
     
 
